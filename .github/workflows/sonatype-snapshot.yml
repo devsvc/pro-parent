@@ -26,6 +26,9 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Set gpg
+      run: export GPG_TTY=$(tty)
+
     - name: Build with Maven
       run: mvn package --file pom.xml
 
