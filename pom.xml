@@ -141,6 +141,9 @@
     </build>
 
     <profiles>
+        <profile>
+            <id>deploy</id>
+        </profile>
         <!-- GPG Signature on release -->
         <profile>
             <id>release-sign-artifacts</id>
@@ -164,7 +167,6 @@
                                     <goal>sign</goal>
                                 </goals>
                                 <configuration>
-                                    <!-- Prevent `gpg` from using pinentry programs -->
                                     <gpgArguments>
                                         <arg>--pinentry-mode</arg>
                                         <arg>loopback</arg>
