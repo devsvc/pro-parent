@@ -23,7 +23,7 @@
         <url>https://svn.apache.org/viewvc/maven</url>
     </scm>
     <properties>
-        <kotlin.version>1.4.10</kotlin.version>
+        <kotlin.version>1.4.21</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <kotlin.compiler.languageVersion>1.4</kotlin.compiler.languageVersion>
         <kotlin.compiler.apiVersion>1.4</kotlin.compiler.apiVersion>
