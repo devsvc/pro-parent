@@ -10,6 +10,20 @@
     <name>devsvc.pro maven parent pom</name>
     <description>The devsvc.pro maven parent pom</description>
     <url>http://maven.apache.org</url>
+    <developers>
+        <developer>
+            <id>devsvc</id>
+            <name>devsvc pro</name>
+            <email>open.dev@outlook.com</email>
+            <url>https://github.com/devsvc</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>Asia/Shanghai</timezone>
+        </developer>
+    </developers>
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
