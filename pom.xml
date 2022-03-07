@@ -20,7 +20,8 @@
         </license>
     </licenses>
     <scm>
-        <url>https://svn.apache.org/viewvc/maven</url>
+        <url>https://github.com/devsvc/pro-parent</url>
+        <connection>scm:git:https://github.com/devsvc/pro-parent.git</connection>
     </scm>
     <properties>
         <kotlin.version>1.4.21</kotlin.version>
