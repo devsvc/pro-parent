@@ -4,7 +4,7 @@
 
     <groupId>pro.devsvc</groupId>
     <artifactId>pro-parent</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>devsvc.pro maven parent pom</name>
@@ -34,7 +34,7 @@
     <scm>
         <url>https://github.com/devsvc/pro-parent</url>
         <connection>scm:git:https://github.com/devsvc/pro-parent.git</connection>
-    <tag>HEAD</tag>
+    <tag>pro-parent-1.0.2</tag>
   </scm>
     <properties>
         <kotlin.version>1.4.21</kotlin.version>
